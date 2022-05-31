@@ -1,0 +1,13 @@
+Vector in STL
+
+		Sort the set of integers read using vector.*-------------
+
+		Find the maximum of all integers that you read using vector.*-------------
+
+		Find the summation of all vector elements.*-------------
+
+		Create a vector that stores a set of characters and find the similar characters.*-------------
+
+		Create a vector that stores a set of characters and print them in reverse order by using rbegin() and rend() and also remove the duplicates.*-------------
+
+		Create a student class and use ArrayList to capture 5 student detail and Sort it.

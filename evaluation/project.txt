@@ -1,0 +1,48 @@
+ABSTRACT:
+
+A transformer is a constant device that transfers electrical power from one circuit to another with the desired change in voltage and current at a constant frequency. But when it overloads the  condition causes abnormality, which can cause serious problems in the future.To avoid such a situation when there is a high load on the main transformer, we use other standby transformers that provide loads, which are switched on automatically by the Arduino. This will lead to efficient loading of both transformers. When the load is normal, both transformers can be switched to alternate loads. This will avoid the thermal loads of the transformer. Also this arrangement will provide proper maintenance facility for both the transformers.Transformer is the most expensive and bulky piece of equipment in an electrical system. It operates 24 hours a day and feeds the load. The situation can sometimes occur when the load of the transformer suddenly increases beyond its rated capacity. When this condition occurs, the transformer will be overloaded, overheating and damaging the insulation of the transformer, resulting in clogging.The best solution to avoid overloads is to run the number of transformers in parallel. This is as sames as the  parallel operation performed by the transformers, where the number of transformers shares the system load.In the recommended approach, the load of the first transformer will share the loads of the second transformer when it rises above its rated capacity. The main objective of this project is to provide uninterrupted power supply to the consumers. By implementing this scheme the transformer can avoid supply interruption due to high load or high heat.
+
+INTRODUCTION:
+
+Transformers is one of the most significant equipment in the electrical power system, hence transformer
+required protection. Apart from this the demand for electricity is increasing due to the increasing population
+and their unavoidable demands, With this increased power requirement , the existing systems have become
+overloaded. The overloading appear at the consumer end of the transformer terminals, which can affect its
+efficiency and protection systems. Due to overload on the transformer the efficiency drops and the windings
+gets over heated and may get burnt. It takes a lot of time to repair and lot of expenditure. Transformers are
+occasionally loaded beyond nameplate ratings because of existing possible contingencies on the transmission
+lines, any failure or fault in power systems, or economic considerations. One of the reported damage or tripping
+of the distribution transformer is due to thermal overload. To eliminate the damaging of transformers due to
+overloading from consumer end, it involves the control against over current tripping of distribution
+transformer. Rise in operating temperature of the transformer. The project is all about protecting the
+transformer under overload condition. by connecting another transformer in parallel through a microcontroller
+and a relay which shares the excess load of the first transformer. The transformers are switched alternatively to
+avoid thermal overloading. If there is a further increase in load beyond the capacity of two transformers there will be a
+priority based  on the load shedding of transformers will provide un-interrupted power supply for the hospitals,
+industries etc. 
+
+
+PROBLEM STATEMENT
+
+In the proposed system, only one transformer operates to feed
+Loads. A waiting transformer is connected in parallel by a circuit
+Breaker and relay.The current transformer constantly measures the load current and
+It feeds to the Arduino. Reference value or maximum load limit
+Entered by the user and the priority level of the load is set by the user or
+Caring power.As the load demand increases during peak hours, a transformer
+Not all loads can be fed. In this case, during the load
+If the requirement exceeds the reference value, the Arduino will give a control signal
+To excite the relay coil.Thus the stand is connected in parallel by the transformer and shared
+Load evenly.
+
+CONCLUSION:
+
+By designing an automatic load sharing transformer using the Arduino we have
+He concluded that the transformer is the most important as we all know
+Equipment in the electrical system, so its safety is very important. This project
+The transformer is about the importance of load distribution, so that power
+can be changed seamlessly.We noticed that if the load on a transformer increases, the relay is off
+Sensing the change of current and activating the microcontroller and other
+Transformers operate automatically to share load and when
+The relay senses the change in current and then again as the load decreases
+The load is distributed and redistributed back to the single main transformer.
